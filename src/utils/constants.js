@@ -9,3 +9,6 @@ export const API_URL =
 
 export const MENU_API =
   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=18.6460852&lng=73.7617595&restaurantId=";
+
+export const EMPTY_CART =
+  "https://images.pexels.com/photos/17489420/pexels-photo-17489420/free-photo-of-empty-shopping-cart-on-pavement.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";

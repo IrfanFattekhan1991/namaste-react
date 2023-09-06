@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import ItemList from "./ItemList";
 import { clearCart } from "../utils/cartSlice";
+import { EMPTY_CART } from "../utils/constants";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -21,7 +22,10 @@ const Cart = () => {
       </button>
 
       {cartItems.length === 0 && (
-        <h1>Your Cart is empty! Please add Items to your Cart.</h1>
+        <h1 className="text-rose-600">
+          Your Cart is empty! Please add Items to your Cart.
+        </h1>
+        //<img src={EMPTY_CART} alt="Cart is Empty" />
       )}
     </div>
   );
